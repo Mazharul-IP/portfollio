@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,200;1,100&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,200;1,100&family=Roboto:ital,wght@1,100&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+}
+.sidebar
+{
+    background-color:gray;
+    width:20vw;
+    font-family: 'Poppins', sans-serif;
+    height:100vh;
+    display:flex;
+}
+li:hover
+{
+    background-color: rgb(135, 228, 12);
+}
+.sidebar nav
+{
+    padding:75px;
+}
+.sidebar nav li a{
+    text-decoration:none;
+    color:white;
+}
+.sidebar nav li
+{
+    list-style: none;
+    font-size:20px;
+    padding:15px;
+}
+.main
+{
+    background-color:white;
+    width:81vw;
+    
+}
+.box
+{
+    display:flex;
+}
+.infobox
+{
+    /* background-color: white; */
+    height:80vh;
+    width:72vw;
+    margin:100px auto;
+    display:flex;
+    justify-content:space-around;
+}
+.hello
+{
+    font-size:35px;
+    /* font-weight:bold; */
+}
+.name{
+    font-size:25px;
+    font-weight:bold;
+}
+
+
+.buttons button{
+    border-radius:15px;
+    margin:12px;
+    padding:4px 10px;
+    background-color: rgb(9, 146, 146);
+    font: size 10px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    background-color:bisque;
+    color:rgb(5, 58, 9);
+}
+
+.divpic img{
+    /* height: 212px; */
+    width:300px;
+    height:75vh;
+}
+.divinfo
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.about{
+    font-size:20px;
+    margin:4px;
+}
+.more-about{
+    font: size 15px;
+    margin:4px;
+}
+.contactform{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 100px;
+    padding: 0 30px;
+}
+.contactform h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding:12px 0;
+    margin-top:20px;
+    
+}
+
+.formbox{
+    padding:10px 0;
+
+}
+.form-control{
+    border-radius:5px;
+    display:flex;
+    margin:6px 0;
+    width:250px;
+    
+}
+#emailHelp{
+    font-size:10px;
+    color:rgb(13, 57, 3);
+    font-weight: bold;
+    margin:8px 0;
+    padding:5px 0 0 0;
+}
+.submit{
+    width:auto;
+    border-radius: 28px;
+    padding: 6px 10px;
+    margin:7px 0;
+    background-color: aquamarine;
+    color:rgb(134, 114, 114);
+    cursor: pointer;
+    font-weight: bold;
+}
+.submit:hover{
+    color:rgb(5, 19, 81);
+    background-color: bisque;
+}
+#isclient{
+    margin-top:15px;
+    
+}
+.blogItem{
+    margin:20px;
+    font-family: 'Poppins', sans-serif;
+}
+.blogItem h2{
+
+}
+.blogContainer h1{
+    font-family: 'Poppins', sans-serif;
+    margin:20px;
+
+}
+.submitr{
+    width:auto;
+    border-radius: 40px;
+    padding: 3px 6px;
+    margin:7px 0;
+    background-color: rgb(198, 220, 213);
+    color:rgb(76, 119, 185);
+    cursor: pointer;
+    font-weight:bold;
+}
+.submitr:hover{
+    color:rgb(5, 19, 81);
+    background-color:darkcyan;
+}
+.intro h1{
+    font-family: 'Poppins', sans-serif;
+    margin:10px;
+}
+.intro p{
+    font-family: 'Poppins', sans-serif;
+    margin:10px;
+
+}
+.intro h2{
+    font-family: 'Poppins', sans-serif;
+    margin:10px;
+
+}
+.skill
+{
+    /* margin: 20px; */
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border:2px solid black;
+}
+ 
+.skillitem{
+    margin:15px;
+    display:flex;
+    align-items:center;
+    font-family: monospace;
+    font-weight: 900px;
+}
+.hundered{
+    width:265px;
+    color:red;
+}
+.fifty{
+    width:130px;
+    background-color:#e0e031;
+}
+.t5{
+    width: 95px;
+    background-color: green;
+}
+.project ul{
+    font-family: monospace;
+    font-weight:800px;
+    font-size: 18px;
+    margin-left: 30px;
+    /* align-items: center; */
+}
+@media (max-width:1615px){
+    .sidebar{
+        transform: translate(-443px 0px);
+        position:relative;
+    }
+}
